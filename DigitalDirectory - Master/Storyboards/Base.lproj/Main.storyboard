@@ -402,53 +402,6 @@
                                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LNo-y3-pyW">
-                                                <rect key="frame" x="20" y="599" width="374" height="40"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbn-yn-Yhu">
-                                                        <rect key="frame" x="47" y="0.0" width="120" height="40"/>
-                                                        <color key="backgroundColor" red="0.5392230308219178" green="0.84005611237945199" blue="0.38040338348493152" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="120" id="u42-UL-rf0"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="Save" image="correct">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="tappedSaveButton:" destination="u3U-eU-d1H" eventType="touchUpInside" id="2zg-cr-cBb"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddU-vW-S5N">
-                                                        <rect key="frame" x="207" y="0.0" width="120" height="40"/>
-                                                        <color key="backgroundColor" red="0.92549019610000005" green="0.23748934269999999" blue="0.17246812580000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="120" id="PRC-dh-U0K"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="Cancel" image="close">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="tappedCancelButton:" destination="u3U-eU-d1H" eventType="touchUpInside" id="kGb-vf-3dr"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="ddU-vW-S5N" secondAttribute="bottom" id="4c9-OX-LxW"/>
-                                                    <constraint firstAttribute="height" constant="40" id="EGx-PU-OOL"/>
-                                                    <constraint firstItem="ddU-vW-S5N" firstAttribute="top" secondItem="LNo-y3-pyW" secondAttribute="top" id="FnT-oT-7e8"/>
-                                                    <constraint firstItem="ddU-vW-S5N" firstAttribute="leading" secondItem="LNo-y3-pyW" secondAttribute="centerX" constant="20" id="FvN-ZV-alb"/>
-                                                    <constraint firstAttribute="bottom" secondItem="vbn-yn-Yhu" secondAttribute="bottom" id="HWw-g4-ND0"/>
-                                                    <constraint firstItem="vbn-yn-Yhu" firstAttribute="top" secondItem="LNo-y3-pyW" secondAttribute="top" id="XRx-ir-SmJ"/>
-                                                    <constraint firstItem="vbn-yn-Yhu" firstAttribute="centerY" secondItem="LNo-y3-pyW" secondAttribute="centerY" id="cp9-cE-kof"/>
-                                                    <constraint firstItem="vbn-yn-Yhu" firstAttribute="trailing" secondItem="LNo-y3-pyW" secondAttribute="centerX" constant="-20" id="rmE-6C-Tcq"/>
-                                                    <constraint firstItem="ddU-vW-S5N" firstAttribute="centerY" secondItem="LNo-y3-pyW" secondAttribute="centerY" id="zg5-nF-tnA"/>
-                                                </constraints>
-                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -459,15 +412,12 @@
                                             <constraint firstItem="iuD-ax-7BE" firstAttribute="leading" secondItem="PTr-k1-e9S" secondAttribute="leading" constant="10" id="CjE-l3-wR4"/>
                                             <constraint firstItem="fau-cb-iYl" firstAttribute="top" secondItem="iuD-ax-7BE" secondAttribute="top" constant="-10" id="GMG-DE-9e8"/>
                                             <constraint firstItem="4OT-pr-p6k" firstAttribute="top" secondItem="iuD-ax-7BE" secondAttribute="bottom" constant="30" id="JGj-hX-Hnq"/>
-                                            <constraint firstItem="LNo-y3-pyW" firstAttribute="top" secondItem="0rL-J5-0g6" secondAttribute="bottom" constant="14" id="Kht-CI-1MG"/>
-                                            <constraint firstAttribute="trailing" secondItem="LNo-y3-pyW" secondAttribute="trailing" constant="20" id="MKZ-Bz-rnV"/>
                                             <constraint firstItem="dp3-oK-fRD" firstAttribute="top" secondItem="0rL-J5-0g6" secondAttribute="top" constant="-10" id="TaZ-LL-lAG"/>
                                             <constraint firstAttribute="trailing" secondItem="0rL-J5-0g6" secondAttribute="trailing" constant="10" id="V8M-vz-hrl"/>
                                             <constraint firstItem="v4S-ru-Pau" firstAttribute="top" secondItem="4OT-pr-p6k" secondAttribute="top" constant="-10" id="d4v-Ub-zbC"/>
                                             <constraint firstAttribute="trailing" secondItem="iuD-ax-7BE" secondAttribute="trailing" constant="10" id="hIF-AR-Fps"/>
                                             <constraint firstItem="0rL-J5-0g6" firstAttribute="top" secondItem="4OT-pr-p6k" secondAttribute="bottom" constant="30" id="jxK-1A-oyw"/>
                                             <constraint firstItem="dp3-oK-fRD" firstAttribute="leading" secondItem="0rL-J5-0g6" secondAttribute="leading" constant="20" id="khd-Mi-lmU"/>
-                                            <constraint firstItem="LNo-y3-pyW" firstAttribute="leading" secondItem="PTr-k1-e9S" secondAttribute="leading" constant="20" id="lRK-oH-XDt"/>
                                             <constraint firstItem="fau-cb-iYl" firstAttribute="leading" secondItem="iuD-ax-7BE" secondAttribute="leading" constant="20" id="o1d-4b-hAi"/>
                                             <constraint firstItem="0rL-J5-0g6" firstAttribute="leading" secondItem="PTr-k1-e9S" secondAttribute="leading" constant="10" id="yPx-Cs-5t7"/>
                                         </constraints>
@@ -499,20 +449,23 @@
                                 <action selector="tappedBackButton:" destination="u3U-eU-d1H" id="yfy-IH-mhp"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="X6L-Lz-hnS">
+                            <color key="tintColor" red="0.5392230308" green="0.8400561124" blue="0.38040338350000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="tappedSaveButton:" destination="u3U-eU-d1H" id="Hpl-E7-SMc"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="addressTextField" destination="xH0-bw-Qq5" id="E2V-ou-XeA"/>
                         <outlet property="branchCodeTextField" destination="lh3-Vi-D9y" id="ae4-N1-LE1"/>
                         <outlet property="branchNameTextField" destination="kfy-fF-vEe" id="JtN-dj-lNZ"/>
-                        <outlet property="buttonView" destination="LNo-y3-pyW" id="KhW-qV-AWP"/>
-                        <outlet property="cancelButton" destination="ddU-vW-S5N" id="f1n-h2-u7Q"/>
                         <outlet property="cityTextField" destination="S25-jf-dVE" id="bkT-UY-3Rv"/>
                         <outlet property="collectionView" destination="3Ve-Y0-9Ms" id="BLh-EM-pEQ"/>
                         <outlet property="ifscCodeTextField" destination="Ra5-Qt-qaJ" id="4aF-FS-GBL"/>
                         <outlet property="nameTextField" destination="M6Z-c2-333" id="vCc-ns-oDM"/>
                         <outlet property="pincodeTextField" destination="Qup-k6-Uoc" id="tdO-rd-t8Y"/>
-                        <outlet property="saveButton" destination="vbn-yn-Yhu" id="pbk-En-d6e"/>
                         <outlet property="stateTextField" destination="ZfA-8E-6Ox" id="Ocf-Sm-j7c"/>
                     </connections>
                 </viewController>
@@ -789,62 +742,12 @@
                                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eNg-ec-ml3">
-                                                <rect key="frame" x="20" y="599" width="374" height="40"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lba-14-YN1">
-                                                        <rect key="frame" x="47" y="0.0" width="120" height="40"/>
-                                                        <color key="backgroundColor" red="0.5392230308" green="0.8400561124" blue="0.38040338350000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="120" id="oNe-1k-Eo7"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="Save" image="correct">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="tappedSaveButton:" destination="ayA-a9-Rxd" eventType="touchUpInside" id="gFj-8w-W9k"/>
-                                                            <action selector="tappedSaveButton:" destination="u3U-eU-d1H" eventType="touchUpInside" id="mpq-ih-Lya"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lvi-Hf-Lnb">
-                                                        <rect key="frame" x="207" y="0.0" width="120" height="40"/>
-                                                        <color key="backgroundColor" red="0.92549019610000005" green="0.23748934269999999" blue="0.17246812580000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="120" id="H2C-0k-281"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
-                                                        <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="Cancel" image="close">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="tappedCancelButton:" destination="ayA-a9-Rxd" eventType="touchUpInside" id="sdr-VC-eME"/>
-                                                            <action selector="tappedCancelButton:" destination="u3U-eU-d1H" eventType="touchUpInside" id="y5q-qA-7rQ"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstItem="lvi-Hf-Lnb" firstAttribute="top" secondItem="eNg-ec-ml3" secondAttribute="top" id="3kE-ng-wu0"/>
-                                                    <constraint firstItem="lvi-Hf-Lnb" firstAttribute="leading" secondItem="eNg-ec-ml3" secondAttribute="centerX" constant="20" id="F1N-Ct-2Ly"/>
-                                                    <constraint firstItem="lvi-Hf-Lnb" firstAttribute="centerY" secondItem="eNg-ec-ml3" secondAttribute="centerY" id="F5W-lf-oPU"/>
-                                                    <constraint firstAttribute="height" constant="40" id="PWO-9C-EbZ"/>
-                                                    <constraint firstAttribute="bottom" secondItem="Lba-14-YN1" secondAttribute="bottom" id="cB8-Qr-hq0"/>
-                                                    <constraint firstItem="Lba-14-YN1" firstAttribute="centerY" secondItem="eNg-ec-ml3" secondAttribute="centerY" id="g97-FB-Hs0"/>
-                                                    <constraint firstItem="Lba-14-YN1" firstAttribute="top" secondItem="eNg-ec-ml3" secondAttribute="top" id="oXi-KU-Eh9"/>
-                                                    <constraint firstItem="Lba-14-YN1" firstAttribute="trailing" secondItem="eNg-ec-ml3" secondAttribute="centerX" constant="-20" id="qfN-iX-1wn"/>
-                                                    <constraint firstAttribute="bottom" secondItem="lvi-Hf-Lnb" secondAttribute="bottom" id="suF-1l-Hep"/>
-                                                </constraints>
-                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="srx-WZ-lvd" secondAttribute="trailing" constant="10" id="2q0-0t-cTI"/>
                                             <constraint firstItem="ZdO-dj-6XA" firstAttribute="top" secondItem="srx-WZ-lvd" secondAttribute="top" constant="-10" id="59w-4Y-PNY"/>
                                             <constraint firstItem="ZdO-dj-6XA" firstAttribute="leading" secondItem="srx-WZ-lvd" secondAttribute="leading" constant="20" id="BNp-Aq-RrK"/>
-                                            <constraint firstAttribute="trailing" secondItem="eNg-ec-ml3" secondAttribute="trailing" constant="20" id="Beq-mM-Kjk"/>
                                             <constraint firstItem="srx-WZ-lvd" firstAttribute="leading" secondItem="WT0-px-y1E" secondAttribute="leading" constant="10" id="CNR-ss-MGO"/>
                                             <constraint firstItem="tZt-fK-La0" firstAttribute="leading" secondItem="kby-1L-kVO" secondAttribute="leading" constant="20" id="Dy6-bL-ewr"/>
                                             <constraint firstAttribute="trailing" secondItem="KNt-HE-uui" secondAttribute="trailing" constant="10" id="FcI-1B-HVd"/>
@@ -858,10 +761,8 @@
                                             <constraint firstItem="wwD-63-Ld7" firstAttribute="leading" secondItem="KNt-HE-uui" secondAttribute="leading" constant="20" id="R9M-fh-HXA"/>
                                             <constraint firstItem="kby-1L-kVO" firstAttribute="top" secondItem="KNt-HE-uui" secondAttribute="bottom" constant="30" id="Sue-2d-8vA"/>
                                             <constraint firstItem="srx-WZ-lvd" firstAttribute="top" secondItem="kJ9-GZ-b4x" secondAttribute="bottom" constant="30" id="UDt-oY-h8M"/>
-                                            <constraint firstItem="eNg-ec-ml3" firstAttribute="top" secondItem="kby-1L-kVO" secondAttribute="bottom" constant="14" id="eD4-fQ-FXN"/>
                                             <constraint firstItem="tZt-fK-La0" firstAttribute="top" secondItem="kby-1L-kVO" secondAttribute="top" constant="-10" id="edR-1V-oKv"/>
                                             <constraint firstItem="kJ9-GZ-b4x" firstAttribute="leading" secondItem="WT0-px-y1E" secondAttribute="leading" constant="10" id="k66-De-SLs"/>
-                                            <constraint firstItem="eNg-ec-ml3" firstAttribute="leading" secondItem="WT0-px-y1E" secondAttribute="leading" constant="20" id="mnP-e5-Iwy"/>
                                             <constraint firstItem="kJ9-GZ-b4x" firstAttribute="top" secondItem="WT0-px-y1E" secondAttribute="top" constant="30" id="qLa-uR-4wn"/>
                                             <constraint firstAttribute="trailing" secondItem="kJ9-GZ-b4x" secondAttribute="trailing" constant="10" id="uim-h3-yX7"/>
                                         </constraints>
@@ -893,19 +794,22 @@
                                 <action selector="tappedBackButton:" destination="ayA-a9-Rxd" id="0kB-gh-Gli"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="5Xw-Ii-SGh">
+                            <color key="tintColor" red="0.5392230308" green="0.8400561124" blue="0.38040338350000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="tappedSaveButton:" destination="ayA-a9-Rxd" id="VCN-Ql-gfI"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="aboutTextField" destination="8AG-cN-LiG" id="Osg-eF-rIt"/>
                         <outlet property="addressTextField" destination="C88-zR-gnr" id="zYL-gV-Vh6"/>
-                        <outlet property="buttonView" destination="eNg-ec-ml3" id="Tzj-gN-sbQ"/>
-                        <outlet property="cancelButton" destination="lvi-Hf-Lnb" id="LLM-Yo-S6S"/>
                         <outlet property="cityTextField" destination="0MS-N4-U1N" id="fzY-t8-llU"/>
                         <outlet property="collectionView" destination="ihj-wt-0LQ" id="cdS-bJ-gIv"/>
                         <outlet property="nameTextField" destination="FWa-f6-tdO" id="azg-s0-YHq"/>
                         <outlet property="pincodeTextField" destination="3g2-TU-MEk" id="tT3-hb-vud"/>
                         <outlet property="ratingTextField" destination="ADY-eV-0xS" id="NUG-to-CXx"/>
-                        <outlet property="saveButton" destination="Lba-14-YN1" id="PKC-f5-ZXH"/>
                         <outlet property="stateTextField" destination="iH7-mU-U26" id="dm9-di-Zfr"/>
                     </connections>
                 </viewController>
@@ -999,8 +903,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="close" width="21" height="21"/>
-        <image name="correct" width="21" height="21"/>
         <image name="down-arrow-1" width="10.5" height="10.5"/>
         <image name="logo" width="400" height="210"/>
         <image name="next" width="21" height="21"/>

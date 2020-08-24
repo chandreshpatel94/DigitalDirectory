@@ -20,10 +20,7 @@ class AddBankViewController: BaseViewController {
   @IBOutlet weak var cityTextField: SkyFloatingLabelTextField!
   @IBOutlet weak var stateTextField: SkyFloatingLabelTextField!
   @IBOutlet weak var pincodeTextField: SkyFloatingLabelTextField!
-  @IBOutlet weak var buttonView: UIView!
   @IBOutlet weak var collectionView: UICollectionView!
-  @IBOutlet weak var saveButton: UIButton!
-  @IBOutlet weak var cancelButton: UIButton!
   
   fileprivate var viewModel = BankViewModel()
   fileprivate var cellWidth: CGFloat {
@@ -50,8 +47,7 @@ class AddBankViewController: BaseViewController {
   }
   
   private func setupUI() {
-    saveButton.cornerRadius(radius: 5.0)
-    cancelButton.cornerRadius(radius: 5.0)
+
   }
   
   private func setData() {
@@ -134,10 +130,6 @@ class AddBankViewController: BaseViewController {
         } else { showAlert(message: "Please enter branch code", title: "Error!") }
       } else { showAlert(message: "Please enter branch name", title: "Error!") }
     } else  { showAlert(message: "Please enter Bank name", title: "Error!") }
-  }
-  
-  @IBAction func tappedCancelButton(_ sender: Any) {
-    navigationController?.popViewController(animated: true)
   }
 }
 

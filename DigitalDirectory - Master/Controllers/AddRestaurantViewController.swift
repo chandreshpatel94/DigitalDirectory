@@ -20,10 +20,7 @@ class AddRestaurantViewController: BaseViewController {
   @IBOutlet weak var pincodeTextField: SkyFloatingLabelTextField!
   @IBOutlet weak var aboutTextField: SkyFloatingLabelTextField!
   @IBOutlet weak var ratingTextField: SkyFloatingLabelTextField!
-  @IBOutlet weak var buttonView: UIView!
   @IBOutlet weak var collectionView: UICollectionView!
-  @IBOutlet weak var saveButton: UIButton!
-  @IBOutlet weak var cancelButton: UIButton!
   
   fileprivate var viewModel = RestaurantViewModel()
   fileprivate var cellWidth: CGFloat {
@@ -50,8 +47,7 @@ class AddRestaurantViewController: BaseViewController {
   }
   
   private func setupUI() {
-    saveButton.cornerRadius(radius: 5.0)
-    cancelButton.cornerRadius(radius: 5.0)
+
   }
   
   private func setData() {
@@ -145,10 +141,6 @@ class AddRestaurantViewController: BaseViewController {
         } else { showAlert(message: "Please enter city name", title: "Error!") }
       } else { showAlert(message: "Please enter address", title: "Error!") }
     } else  { showAlert(message: "Please enter Bank name", title: "Error!") }
-  }
-  
-  @IBAction func tappedCancelButton(_ sender: Any) {
-    navigationController?.popViewController(animated: true)
   }
 }
 
