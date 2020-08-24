@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="115" id="KGk-i7-Jjw" customClass="ListTableViewCell" customModule="DigitalDirectory___Master" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qYL-6d-1kU">
+                        <rect key="frame" x="20" y="5" width="280" height="105"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State Bank of India" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xW7-qs-EMx">
+                                <rect key="frame" x="20" y="10" width="167.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Surat Branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JIx-x0-ebC">
+                                <rect key="frame" x="20" y="42" width="97" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Surat - Gujarat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Buv-iU-WDl">
+                                <rect key="frame" x="20" y="70" width="98" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Buv-iU-WDl" firstAttribute="leading" secondItem="JIx-x0-ebC" secondAttribute="leading" id="1bO-K7-8Dq"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xW7-qs-EMx" secondAttribute="trailing" constant="20" id="Jo6-zu-QJP"/>
+                            <constraint firstItem="Buv-iU-WDl" firstAttribute="top" secondItem="JIx-x0-ebC" secondAttribute="bottom" constant="8" id="N3B-qx-v2O"/>
+                            <constraint firstItem="JIx-x0-ebC" firstAttribute="leading" secondItem="xW7-qs-EMx" secondAttribute="leading" id="NM9-NB-2ie"/>
+                            <constraint firstItem="xW7-qs-EMx" firstAttribute="leading" secondItem="qYL-6d-1kU" secondAttribute="leading" constant="20" id="fHB-F2-Z9N"/>
+                            <constraint firstItem="xW7-qs-EMx" firstAttribute="top" secondItem="qYL-6d-1kU" secondAttribute="top" constant="10" id="nBg-Nx-Nf8"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JIx-x0-ebC" secondAttribute="trailing" constant="20" id="nZb-PT-Fd5"/>
+                            <constraint firstItem="JIx-x0-ebC" firstAttribute="top" secondItem="xW7-qs-EMx" secondAttribute="bottom" constant="8" id="roV-zd-smH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qYL-6d-1kU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="9KK-CZ-vhm"/>
+                    <constraint firstAttribute="bottom" secondItem="qYL-6d-1kU" secondAttribute="bottom" constant="5" id="Cdx-vp-efR"/>
+                    <constraint firstItem="qYL-6d-1kU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="TXd-9R-AGh"/>
+                    <constraint firstAttribute="trailing" secondItem="qYL-6d-1kU" secondAttribute="trailing" constant="20" id="sjo-N0-8Ys"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bankNameLabel" destination="xW7-qs-EMx" id="0WL-DO-xFe"/>
+                <outlet property="branchNameLabel" destination="JIx-x0-ebC" id="FU6-j3-ick"/>
+                <outlet property="cityTitle" destination="Buv-iU-WDl" id="hTI-46-3Fd"/>
+                <outlet property="containerView" destination="qYL-6d-1kU" id="gDq-MP-mfD"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="148.32589285714286"/>
+        </tableViewCell>
+    </objects>
+</document>
